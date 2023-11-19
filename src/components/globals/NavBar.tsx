@@ -31,7 +31,7 @@ function NavBar(): JSX.Element {
   return (
     <>
       <nav className={`navbar ${isOpen ? "open" : ""}`}>
-        <Image src={logo} alt="logo" width={148} height={148} priority />
+        <Image src={logo} alt="logo" width={100} height={100} priority />
 
         <ul className="nav-links">
           {navLinks.map((link) => {
