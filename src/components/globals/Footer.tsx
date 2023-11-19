@@ -15,6 +15,9 @@ function Footer() {
             Camille BERNARDINI
           </li>
           <li>
+            15 rue Guillaume Grootaers (Nantes)
+          </li>
+          <li>
             <a href="telto:0664243973">06 - 64 - 24 - 39 - 73</a>
           </li>
           <li>
