@@ -10,7 +10,7 @@ function CarouselContainer({ data }: { data: any[] }) {
     interval: 5000,
     showArrows: true,
     width: "80%",
-    showThumbs: true,
+    showThumbs: false,
     showStatus: false
   }
 
@@ -19,7 +19,6 @@ function CarouselContainer({ data }: { data: any[] }) {
       {data.map((el) => (
         <div key={el.id}>
           <Image src={el.URL} alt="image in the carousel" width={500} height={500} loading="lazy" />
-          <p className="legend">{el.label}</p>
         </div>
       ))}
     </Carousel>
