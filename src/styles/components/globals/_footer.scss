@@ -12,13 +12,9 @@
     &_informations_list {
       margin-left: 100px;
       width: 30vw;
-
-      li {
-        p {
-          font-weight: a.$primary-weight;
-          padding: 8px;
-        }
-      }
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
     &_icons_list {
@@ -61,10 +57,9 @@
   }
 
   &_conditions {
-    font-weight: a.$primary-weight;
     text-align: center;
-    color: a.$secondary-color;
-    font-size: a.$primary-size;
+    font-family: a.$primary-font;
+    font-weight: a.$primary-weight;
   }
 }
 

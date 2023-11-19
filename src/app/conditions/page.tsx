@@ -86,36 +86,29 @@ export default function Conditions() {
 
       <hgroup>
         <h2>8. Assurance</h2>
-        <p>Atelier SP a souscrit auprès de SOLLY AZAR, une assurance responsabilité civile et professionnelle Multi&apos;Pro 28009068765. Cette police d’assurance peut être fournie sur simple demande.</p>
+        <p>Atelier Lume a souscrit auprès de SOLLY AZAR, une assurance responsabilité civile et professionnelle Multi&apos;Pro 28009068765. Cette police d’assurance peut être fournie sur simple demande.</p>
         <p>Le Client devra lui-même s’assurer que les prestataires qu’il aura choisi pour l’exécution des travaux sont assurés dans le cadre de leur activité professionnelle.</p>
       </hgroup>
 
       <hgroup>
         <h2>9. Protection de vos données personnelles</h2>
-        <p>Conformément à la loi Informatique et Libertés N° 7 8-17 du 6 janvier 1978 modifiée en 2004, il est rappelé que les informations qui sont demandées au Client sont nécessaires au traitement de sa commande et sont destinées à l’usage interne de Atelier SP.</p>
-        <p>Ces données nominatives pourront néanmoins être communiquées aux partenaires contractuels de la marque. Ils pourront également être transmis à toute autorité compétente pour le règlement de litiges entre Atelier SP et l’un de ses Clients.</p>
+        <p>Conformément à la loi Informatique et Libertés N° 7 8-17 du 6 janvier 1978 modifiée en 2004, il est rappelé que les informations qui sont demandées au Client sont nécessaires au traitement de sa commande et sont destinées à l’usage interne de Atelier Lume.</p>
+        <p>Ces données nominatives pourront néanmoins être communiquées aux partenaires contractuels de la marque. Ils pourront également être transmis à toute autorité compétente pour le règlement de litiges entre Atelier Lume et l’un de ses Clients.</p>
         <p>Le Client dispose d’un droit d’accès, de modification, de rectification et d’opposition concernant ses données personnelles. Il peut en faire la demande par mail : atelierlume@gmail.com</p>
       </hgroup>
 
       <hgroup>
         <h2>10. Confidentialité et propriété intellectuelle</h2>
-        <p>Atelier SP s’engage à tenir confidentielles les informations personnelles communiquées par le Client.</p>
-        <p>Atelier SP conserve la propriété pleine et entière du concept créatif et de l’image du projet réalisé. De ce fait, le Client devra l’informer de toute publication, tournage, reportage, utilisation de l’image des travaux… Le client autorise Atelier SP via l’acceptation de ces CGV la prise de photos de son intérieur avant et après la réalisation de la prestation de Atelier SP à des fins promotionnelles. Le Client autorise donc Atelier SP à utiliser les croquis, photos ou documents des projets Client pour illustrer tout support de communication et en autorise donc la diffusion et la reproduction.</p>
-        <p>Atelier SP s‘engage à respecter l’anonymat du client. Les photos, images et représentations graphiques figurant sur les documents commerciaux sont simplement illustratives des services proposés par Atelier SP et non contractuelles.</p>
+        <p>Atelier Lume s’engage à tenir confidentielles les informations personnelles communiquées par le Client.</p>
+        <p>Atelier Lume conserve la propriété pleine et entière du concept créatif et de l’image du projet réalisé. De ce fait, le Client devra l’informer de toute publication, tournage, reportage, utilisation de l’image des travaux… Le client autorise Atelier Lume via l’acceptation de ces CGV la prise de photos de son intérieur avant et après la réalisation de la prestation de Atelier Lume à des fins promotionnelles. Le Client autorise donc Atelier Lume à utiliser les croquis, photos ou documents des projets Client pour illustrer tout support de communication et en autorise donc la diffusion et la reproduction.</p>
+        <p>Atelier Lume s‘engage à respecter l’anonymat du client. Les photos, images et représentations graphiques figurant sur les documents commerciaux sont simplement illustratives des services proposés par Atelier Lume et non contractuelles.</p>
       </hgroup>
 
       <hgroup>
         <h2>11. Durée et droit applicable</h2>
-        <p>Les présentes conditions s’appliquent pendant toute la durée de mise en ligne des services proposés par Atelier SP et sont soumises à la loi française. En cas de litige, les parties privilégieront le traitement à l’amiable.</p>
+        <p>Les présentes conditions s’appliquent pendant toute la durée de mise en ligne des services proposés par Atelier Lume et sont soumises à la loi française. En cas de litige, les parties privilégieront le traitement à l’amiable.</p>
         <p>A défaut de règlement amiable, les tribunaux compétents seront saisis.</p>
       </hgroup>
-
-      {/* <hgroup>
-        <h2>12. Litige - Médiation de la consommation</h2>
-        <p>En cas de litige entre le Client et l’entreprise, ceux-ci s’efforceront de le résoudre à l’amiable (le Client adressera une réclamation écrite auprès du Service Relations Clientèle du Constructeur ou celui du Vendeur).</p>
-        <p>A défaut d’accord amiable ou en l’absence de réponse du professionnel dans un délai raisonnable d’un (1) mois, le Client consommateur au sens de l’article L.133-4 du code de la consommation a la possibilité de saisir gratuitement, si un désaccord subsiste, le médiateur compétent inscrit sur la liste des médiateurs établie par la Commission d’évaluation et de contrôle de la médiation de la consommation en application de l’article L.615-1 du code de la consommation, à savoir :</p>
-        <p>CM2C, 17 rue St Jean, 75017 PARIS, Tél 01 89 47 00 14</p>
-      </hgroup> */}
     </>
   )
 }

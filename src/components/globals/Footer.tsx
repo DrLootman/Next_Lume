@@ -4,7 +4,6 @@
 // import arrow from "../../../public/Arrow.png";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
-import { BiUpArrowCircle } from "react-icons/bi";
 import Link from "next/link";
 
 function Footer() {
@@ -13,13 +12,13 @@ function Footer() {
       <section className="footer_contact">
         <ul className="footer_contact_informations_list">
           <li>
-            <p>Camille BERNARDINI</p>
+            Camille BERNARDINI
           </li>
           <li>
-            <p>06 - 64 - 24 - 39 - 73</p>
+            <a href="telto:0664243973">06 - 64 - 24 - 39 - 73</a>
           </li>
           <li>
-            <p>latelierlume@gmail.com</p>
+            <a href="mailto:latelierlume@gmail.com">latelierlume@gmail.com</a>
           </li>
         </ul>
 
@@ -31,12 +30,9 @@ function Footer() {
           </li>
         </ul>
 
-        <div className="footer_contact_scroll_top">
-          <BiUpArrowCircle size={70} />
-        </div>
       </section>
       <section className="footer_conditions">
-        <p>Condition générales de ventes de <span>l&apos;Atelier Lume</span></p>
+        <Link href="/conditions">Condition générales de ventes de <b>l&apos;Atelier Lume</b></Link>
       </section>
     </footer>
   );
