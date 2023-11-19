@@ -8,8 +8,8 @@ export default function Conditions() {
       <hgroup>
         <h2>Préambule</h2>
         <p>Madame BERNARDINI Camille, auto-entrepreneuse répondant au n° SIREN suivant : 981 120 991, domiciliée au 15 rue Guillaume Grootaers, 44300 NANTES, propose des prestations de services de décoration d’intérieur aux particuliers et professionnels dans les conditions exposées ci-après.</p>
-        <p>Les conditions générales de vente sont à lire attentivement. Elles constituent les éléments du contrat de prestation des services proposés par Madame BERNARDINI, et dont l$apos;activité répond au nom <strong>Atelier Lume</strong>. Tout client reconnaît avoir pris connaissance de ce document avant d’avoir signé un devis avec la mention « bon pour accord », et avoir la capacité de contracter avec Atelier Lume. Toute signature d’un devis vaut acceptation expresse et sans réserve des présentes conditions.</p>
-        <p>Atelier Lume, Décoratrice d’Intérieur et conseillère en design d’espace est une entreprise proposant des conseils en aménagement et décoration d’intérieur aux clients et les accompagne dans l’orientation esthétique de leur projet de transformation d’une ou plusieurs pièces de leur habitation.</p>
+        <p>Les conditions générales de vente sont à lire attentivement. Elles constituent les éléments du contrat de prestation des services proposés par Madame BERNARDINI, et dont l&apos;activité répond au nom <strong>Atelier Lume</strong>. Tout client reconnaît avoir pris connaissance de ce document avant d’avoir signé un devis avec la mention « bon pour accord », et avoir la capacité de contracter avec Atelier Lume. Toute signature d’un devis vaut acceptation expresse et sans réserve des présentes conditions.</p>
+        <p>Atelier Lume, Décoratrice d’Intérieur et conseillère en design d’espace est une micro entreprise proposant des conseils en aménagement et décoration d’intérieur aux clients et les accompagne dans l’orientation esthétique de leur projet de transformation d’une ou plusieurs pièces de leur habitation.</p>
         <p>Atelier Lume propose des concepts de design intérieur sous forme de visuels 3D, de perspectives, sans suivi de la réalisation des travaux. Les présentes conditions générales de vente peuvent être modifiées à tout moment par Atelier Lume.</p>
       </hgroup>
 
@@ -84,11 +84,11 @@ export default function Conditions() {
         <p>Par ailleurs, Atelier Lume ne garantit en aucun cas que les couleurs à l’écran ou imprimées correspondent exactement aux produits en vente. Ainsi, le Client est tenu d’effectuer les vérifications nécessaires. En conséquence de ce qui précède, la responsabilité de Atelier Lume ne saurait être engagée dans l’hypothèse où la teinte retenue ne correspondrait pas exactement au résultat après impression ou visualisation écran.</p>
       </hgroup>
 
-      <hgroup>
+      {/* <hgroup>
         <h2>8. Assurance</h2>
         <p>Atelier Lume a souscrit auprès de SOLLY AZAR, une assurance responsabilité civile et professionnelle Multi&apos;Pro 28009068765. Cette police d’assurance peut être fournie sur simple demande.</p>
         <p>Le Client devra lui-même s’assurer que les prestataires qu’il aura choisi pour l’exécution des travaux sont assurés dans le cadre de leur activité professionnelle.</p>
-      </hgroup>
+      </hgroup> */}
 
       <hgroup>
         <h2>9. Protection de vos données personnelles</h2>
@@ -101,7 +101,7 @@ export default function Conditions() {
         <h2>10. Confidentialité et propriété intellectuelle</h2>
         <p>Atelier Lume s’engage à tenir confidentielles les informations personnelles communiquées par le Client.</p>
         <p>Atelier Lume conserve la propriété pleine et entière du concept créatif et de l’image du projet réalisé. De ce fait, le Client devra l’informer de toute publication, tournage, reportage, utilisation de l’image des travaux… Le client autorise Atelier Lume via l’acceptation de ces CGV la prise de photos de son intérieur avant et après la réalisation de la prestation de Atelier Lume à des fins promotionnelles. Le Client autorise donc Atelier Lume à utiliser les croquis, photos ou documents des projets Client pour illustrer tout support de communication et en autorise donc la diffusion et la reproduction.</p>
-        <p>Atelier Lume s‘engage à respecter l’anonymat du client. Les photos, images et représentations graphiques figurant sur les documents commerciaux sont simplement illustratives des services proposés par Atelier Lume et non contractuelles.</p>
+        <p>Atelier Lume s&apos;engage à respecter l’anonymat du client. Les photos, images et représentations graphiques figurant sur les documents commerciaux sont simplement illustratives des services proposés par Atelier Lume et non contractuelles.</p>
       </hgroup>
 
       <hgroup>

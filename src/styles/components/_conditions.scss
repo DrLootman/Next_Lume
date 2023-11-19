@@ -1,0 +1,11 @@
+@use '../abstracts/' as a;
+
+hgroup {
+  h2 {
+    padding: a.$secondary-size;
+
+  }
+  p {
+    padding: a.$primary-size;
+  }
+}

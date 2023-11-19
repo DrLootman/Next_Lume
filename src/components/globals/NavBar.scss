@@ -19,7 +19,7 @@
     }
 
     a[aria-current="page"] {
-      font-weight: 500;
+      font-weight: a.$secondary-weight;
       color: a.$secondary-color;
       font-size: 1.3rem;
     }

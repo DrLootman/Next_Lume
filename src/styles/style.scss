@@ -14,6 +14,7 @@
 @use './components/carouselContainer';
 @use './components/pricesPage';
 @use './components/homePicture';
+@use './components/conditions';
 
 * {
   margin: 0;
@@ -23,7 +24,6 @@
 
 body {
   background-color: a.$quaternary-color;
-  // font-family: a.$primary-font;
 }
 
 ul, li {
@@ -32,6 +32,7 @@ ul, li {
 
 a {
   text-decoration: none;
+  color: a.$secondary-color
 }
 
 button {
@@ -51,7 +52,6 @@ button {
     color: a.$primary-color;
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 700;
     letter-spacing: 0.12rem;
     transition: all 0.3s;
     cursor: pointer;
@@ -107,7 +107,6 @@ button {
     position: relative;
     text-align: center;
     padding-top: 40px;
-    font-weight: 900;
     font-size: 32px;
     color: a.$tertiary-color;
 
