@@ -1,6 +1,4 @@
-import { HeaderTitleI } from "./headerTitle";
-
-function HeaderTitle({ title }: HeaderTitleI): JSX.Element {
+function HeaderTitle({ title }: { title: string }): JSX.Element {
   return (
     <header className="header_title">
       <h1>

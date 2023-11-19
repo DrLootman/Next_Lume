@@ -7,7 +7,7 @@ export default function HomeBoards() {
 
       <ul className="home_boards">
         <li>
-          <Image src="/PlancheInspi1.jpg" alt="Première planche d&apos;inspiration" width={700} height={500} onLoad={(e) => console.log(e.target.naturalHeight)} />
+          <Image src="/PlancheInspi1.jpg" alt="Première planche d&apos;inspiration" width={700} height={500} />
         </li>
         <li>
           <Image src="/PlancheInspi2.jpg" alt="Seconde planche d&apos;inspiration" width={700} height={500} />

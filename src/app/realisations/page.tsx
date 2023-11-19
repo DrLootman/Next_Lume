@@ -24,11 +24,11 @@ export default function Realisation() {
   return (
     <>
       <PrestationHeader title={"Mes réalisations"} />
-      {data?.map((el: CategoryWithRealisationArticlesI) => {
+      {data?.map((el) => {
         return (
           <section key={el.id}>
             <RealisationCategoryName categoryName={el.photo_category_name} />
-            {el.realisationArticles.map((infos: RealisationArticleI): JSX.Element => (
+            {el.realisationArticles.map((infos): JSX.Element => (
               <RealisationCard
                 key={infos.id}
                 index={infos.id}

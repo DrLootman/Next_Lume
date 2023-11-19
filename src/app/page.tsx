@@ -5,7 +5,6 @@ import HomeCards from "@/components/HomeCards";
 import HomePresentation from "@/components/HomePresentation";
 import NavBar from "@/components/globals/NavBar";
 import Layout from "./layout";
-import NavLinks from "@/components/globals/NavLinks";
 import HomeBoards from "@/components/HomeBoards";
 import HomeCarousel from "@/components/HomeCarousel";
 import HomePicture from "@/components/HomePicture";

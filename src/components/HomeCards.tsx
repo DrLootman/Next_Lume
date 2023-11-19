@@ -1,6 +1,5 @@
 "use client"
 
-import Cards from "./Cards";
 import Link from "next/link";
 import Image from "next/image";
 import data from "../app/threeCreations.json";

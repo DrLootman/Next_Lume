@@ -2,7 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 
-function CarouselContainer({ data }: { data: InspirationImageI[] }) {
+function CarouselContainer({ data }: { data: any[] }) {
   const carouselSettings = {
     className: "carousel",
     autoPlay: true,
@@ -16,7 +16,7 @@ function CarouselContainer({ data }: { data: InspirationImageI[] }) {
 
   return (
     <Carousel {...carouselSettings}>
-      {data.map((el: InspirationImageI) => (
+      {data.map((el) => (
         <div key={el.id}>
           <Image src={el.URL} alt="image in the carousel" width={500} height={500} loading="lazy" />
           <p className="legend">{el.label}</p>
