@@ -23,6 +23,7 @@
 
 body {
   background-color: a.$quaternary-color;
+  font-family: a.$primary-font;
 }
 
 ul, li {
@@ -35,10 +36,6 @@ a {
 
 button {
   all: unset;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  font-family: a.$primary-font;
 }
 
 // buttons of the main page :
@@ -54,7 +51,6 @@ p, h1, h2, h3, h4, h5, h6 {
     color: a.$primary-color;
     text-transform: uppercase;
     font-size: 1rem;
-    font-family: a.$primary-font;
     font-weight: 700;
     letter-spacing: 0.12rem;
     transition: all 0.3s;
@@ -112,7 +108,6 @@ p, h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding-top: 40px;
     font-weight: 900;
-    font-family: a.$primary-font;
     font-size: 32px;
     color: a.$tertiary-color;
 

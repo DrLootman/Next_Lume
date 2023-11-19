@@ -11,7 +11,6 @@
   h1 {
     color: a.$secondary-color;
     width: 20vw;
-    font-family: a.$primary-font;
-    font-size: 62px;
+    font-size: a.$quaternary-size;
   }
 }
