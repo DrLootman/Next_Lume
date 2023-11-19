@@ -12,6 +12,9 @@ export default function HomeBoards() {
         <li>
           <Image src="/PlancheInspi2.jpg" alt="Seconde planche d&apos;inspiration" width={700} height={500} />
         </li>
+        <li>
+          <Image src="/PlancheInspi3.jpg" alt="Seconde planche d&apos;inspiration" width={700} height={500} />
+        </li>
       </ul>
     </>
   )
