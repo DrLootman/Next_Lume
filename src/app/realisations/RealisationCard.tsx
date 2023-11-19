@@ -1,16 +1,22 @@
 import { PrestationCardI } from "../utils/interfaces/interfaces.d";
+import Image from "next/image";
 
 interface PrestationCardI {
   index: number;
-  Url: string;
+  imagePath: string;
   paragraph: string;
 }
 
-export default function RealisationCard({ index, Url, paragraph }: PrestationCardI): JSX.Element {
+export default function RealisationCard({ index, imagePath, paragraph }: PrestationCardI): JSX.Element {
   return (
     <ul className={index % 2 === 0 ? "prestation-card" : "prestation-card_reverse"}>
         <li>
-          <img src={URL} alt="picture of a home" />
+          <Image 
+            src={imagePath}
+            alt="picture of a home"
+            width={500}
+            height={400} 
+          />
         </li>
         <li>
           <p>{paragraph}</p>

@@ -1,0 +1,17 @@
+@use '../abstracts/' as a;
+
+.header_title {
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+  align-items: center;
+  background-color: a.$quaternary-color;
+
+  h1 {
+    color: a.$secondary-color;
+    width: 20vw;
+    font-family: a.$primary-font;
+    font-size: 62px;
+  }
+}

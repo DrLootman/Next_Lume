@@ -1,0 +1,52 @@
+@use '../abstracts/' as a;
+
+.prestation-card, .prestation-card_reverse {
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+  background-color: a.$quaternary-color;
+
+  li {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  
+    img {
+      border-radius: 20px;
+      height: 375px;
+      width: 80%;
+      object-fit: cover;
+    }
+
+    p {
+      font-family: a.$primary-font;
+      font-weight: a.$primary-weight;
+      font-size: 24px;
+      width: 80%;
+    }
+  }
+}
+
+.prestation-card_reverse {
+  flex-direction: row-reverse;
+  background-color: a.$quinary-color;
+}
+
+@media screen and (max-width: 855px) {
+  .prestation-card, .prestation-card_reverse {
+    flex-direction: column;
+
+    li {
+      width: 100%;
+
+      img {
+        width: 90%;
+      }
+
+      p {
+        text-align: center;
+        margin: a.$primary-size 0 a.$quaternary-size 0;
+      }
+    }
+  }
+}

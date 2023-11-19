@@ -1,0 +1,14 @@
+[
+  {
+    "image_url": "/prosedenuit.jpg",
+    "label": "Salon cosy"
+  },
+  {
+    "image_url": "/picasso.jpg",
+    "label": "Home staging"
+  },
+  {
+    "image_url": "/boheme.jpg",
+    "label": "Agencement intérieur"
+  }
+]

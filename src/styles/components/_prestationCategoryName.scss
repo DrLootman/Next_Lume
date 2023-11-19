@@ -1,0 +1,14 @@
+@use '../abstracts/' as a;
+
+#prestation_category_name {
+  color: #A97543;
+  font-size: 36px;
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 855px) {
+  #prestation_category_name {
+    text-align: center;
+    margin: 0 0 a.$tertiary-size 0;
+  }
+}

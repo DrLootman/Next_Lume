@@ -1,0 +1,22 @@
+@use '../abstracts/' as a;
+
+.home-carousel {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  background-color: a.$quaternary-color;
+
+  .carousel .carousel-slider {
+    margin: auto;
+    z-index: 0;
+    cursor: pointer;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  &_title {
+    margin-bottom: 48px;
+  }
+}

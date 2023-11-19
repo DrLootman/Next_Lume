@@ -1,0 +1,87 @@
+@use "../../abstracts/" as a;
+
+.footer {
+  height: 15vh;
+  margin-block: 40px;
+
+  &_contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &_informations_list {
+      margin-left: 100px;
+      width: 30vw;
+
+      li {
+        p {
+          font-weight: a.$primary-weight;
+          padding: 8px;
+        }
+      }
+    }
+
+    &_icons_list {
+      width: 40vw;
+      display: flex;
+      justify-content: center;
+      gap: 10%;
+
+      li {
+        gap: 24px;
+
+        a {
+          svg {
+            height: 50px;
+            width: 50px;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            opacity: 0.7;
+            color: black;
+
+            &:hover {
+              opacity: 1;
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+
+    &_scroll_top {
+      margin-right: 100px;
+      display: flex;
+      justify-content: center;
+      width: 30vw;
+
+      svg {
+        animation: colorRadius infinite 3s ease;
+      }
+    }
+  }
+
+  &_conditions {
+    font-weight: a.$primary-weight;
+    text-align: center;
+    color: a.$secondary-color;
+    font-size: a.$primary-size;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .footer {
+    &_contact {
+      &_informations_list {
+        margin: 0 5% 0 5%;
+      }
+  
+      &_scroll_top {
+        display: none;
+      }
+    }
+
+    &_conditions {
+      padding: a.$secondary-size 0;
+    }
+  }
+}

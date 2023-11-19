@@ -1,0 +1,43 @@
+@use '../abstracts/' as a;
+
+.presentation {
+  position: relative;
+  display: flex;
+  height: 600px;
+  background-color: a.$secondary-color;
+  align-items: center;
+
+  p {
+    font-family: a.$primary-font;
+    font-weight: bold;
+    font-size: 24px;
+    color: a.$primary-color;
+    width: 50vw;
+    margin-right: 5vw;
+  }
+
+  img {
+    border-radius: 20px;
+    height: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .presentation {
+    height: auto;
+    flex-direction: column;
+
+    img {
+      margin: 5vh 0 0 0;
+    }
+
+    p {
+      width: 70%;
+      text-align: center;
+      margin: 5vh 0 5vh 0;
+      font-size: 1.3rem;
+    }
+  }
+}
+

@@ -1,0 +1,51 @@
+@use '../abstracts/' as a;
+
+.home-cards {
+  height: 700px;
+  position: relative;
+  background-color: a.$primary-color;
+  
+  &_cards {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+
+    .cards {
+      background-color: a.$primary-color;
+      box-shadow: -30px -30px 0px 0px #FAEFE6;
+      width: 280px;
+    
+      h3 {
+        font-size: a.$secondary-size;
+        padding-block: 15px;
+        font-weight: 500;
+        text-align: center;
+        background: a.$secondary-color;
+        color: a.$primary-color;
+        text-align: center;
+      }
+    
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+
+  &_button {
+    z-index: 0;
+  }
+}
+
+
+@media screen and (max-width: 815px) {
+  .home-cards {
+    height: auto;
+
+    &_cards {
+      margin: 5rem 0 2rem 0;
+      flex-direction: column;
+    }
+  }
+}

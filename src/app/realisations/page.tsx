@@ -1,13 +1,10 @@
-// import PrestationHeader from "../HeaderTitle";
-import RealisationCard from "../RealisationCard";
+"use client";
+
+import RealisationCard from "./RealisationCard";
 import RealisationCategoryName from "./RealisationCategoryName";
-// import { useState, useEffect } from "react";
-// import useGet from "../../utils/useGet";
-// import {
-//   CategoryWithRealisationArticlesI,
-//   RealisationArticleI,
-// } from "../../utils/interfaces/interfaces";
-import { data } from "./realisation.json";
+import PrestationHeader from "../../components/globals/HeaderTitle";
+import data from "./realisation.json";
+import { useState } from "react";
 
 interface RealisationArticleI {
   id: number;
@@ -24,14 +21,9 @@ interface CategoryWithRealisationArticlesI {
 }
 
 export default function Realisation() {
-  const [data, setData] = useState<CategoryWithRealisationArticlesI[]>([]);
-
-  useGet<CategoryWithRealisationArticlesI>("api/realisation", setData);
-
   return (
     <>
-      {/* <PrestationHeader title={"Mes réalisations"} /> */}
-      <h1>Coucou</h1>
+      <PrestationHeader title={"Mes réalisations"} />
       {data?.map((el: CategoryWithRealisationArticlesI) => {
         return (
           <section key={el.id}>
@@ -40,7 +32,7 @@ export default function Realisation() {
               <RealisationCard
                 key={infos.id}
                 index={infos.id}
-                URL={infos.URL}
+                imagePath={infos.imagePath}
                 paragraph={infos.paragraph}
               />
             )
