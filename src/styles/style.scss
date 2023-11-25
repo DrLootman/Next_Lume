@@ -107,7 +107,8 @@ button {
     position: relative;
     text-align: center;
     padding-top: 40px;
-    font-size: 32px;
+    font-size: a.$tertiary-size;
+    font-weight: a.$secondary-weight;
     color: a.$tertiary-color;
 
     &::after {
