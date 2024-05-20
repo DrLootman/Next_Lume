@@ -11,10 +11,10 @@ const noto = Noto_Serif({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Atelier Lume',
+    default: `Atelier Lume - Décoration et révélation d'intérieur`,
     template: '%s - Atelier Lume'
   },
-  description: 'Site de décoration d&apos;intérieur',
+  description: `Le site Atelier Lume recense les créations de Camille Bernardini, décoratrice d'intérieur diplômée ; de même qu'il permet de la contacter et de prendre rendez-vous`,
 }
 
 export default function RootLayout({
