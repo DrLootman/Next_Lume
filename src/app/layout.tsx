@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="preload" fetchPriority="high" as="video" href="/video/curtain.mp4" type="video/mp4" />
+        <link rel="preload" fetchPriority="high" href="/curtain.jpg" type="image/jpg" />
       </Head>
       <body className={noto.className}>
         <NavBar />
