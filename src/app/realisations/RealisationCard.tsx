@@ -1,9 +1,17 @@
+import { Metadata } from "next";
 import Image from "next/image";
 
 interface PrestationCardI {
   index: number;
   imagePath: string;
   paragraph: string;
+}
+
+export function generateMetadata({ index, imagePath, paragraph }: PrestationCardI): Metadata {
+  return {
+    title: `Image title is : ${imagePath}`,
+    description: paragraph,
+  }
 }
 
 export default function RealisationCard({ index, imagePath, paragraph }: PrestationCardI) {

@@ -3,6 +3,7 @@ import { Noto_Serif } from 'next/font/google';
 import '../styles/style.scss';
 import Footer from '@/components/globals/Footer';
 import NavBar from '@/components/globals/NavBar';
+import Head from 'next/head';
 
 const noto = Noto_Serif({
   weight: ["200", '300', '400', '500', '600', '700', '800', '900'],
@@ -25,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="preload" fetchPriority="high" as="video" href="/video/curtain.mp4" type="video/mp4" />
+      </Head>
       <body className={noto.className}>
         <NavBar />
         {children}
