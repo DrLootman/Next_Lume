@@ -10,7 +10,10 @@ const noto = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-  title: 'Atelier Lume',
+  title: {
+    default: 'Atelier Lume',
+    template: '%s - Atelier Lume'
+  },
   description: 'Site de décoration d&apos;intérieur',
 }
 

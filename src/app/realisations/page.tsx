@@ -1,10 +1,13 @@
-"use client";
-
+import { useState } from "react";
+import { Metadata } from "next";
 import RealisationCard from "./RealisationCard";
 import RealisationCategoryName from "./RealisationCategoryName";
 import PrestationHeader from "../../components/globals/HeaderTitle";
 import data from "./realisation.json";
-import { useState } from "react";
+
+export const metadata: Metadata = {
+  title: "Réalisations"
+}
 
 interface RealisationArticleI {
   id: number;

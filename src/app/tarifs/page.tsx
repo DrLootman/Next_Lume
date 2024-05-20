@@ -1,4 +1,9 @@
 import HeaderTitle from "@/components/globals/HeaderTitle";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Tarifs"
+}
 
 export default function PricesPage() {
   return (
