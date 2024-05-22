@@ -1,7 +1,6 @@
 @use '../abstracts/' as a;
 
 .presentation {
-  position: relative;
   display: flex;
   height: 600px;
   background-color: a.$secondary-color;

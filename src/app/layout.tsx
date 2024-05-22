@@ -28,6 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="preload" fetchPriority="high" href="/curtain.jpg" type="image/jpg" />
+        <meta name="google-site-verification" content="eEln7XwBrMy5b_Au759vT044HNXR5sFm86XUr8NLnXk" />
       </Head>
       <body className={noto.className}>
         <NavBar />
