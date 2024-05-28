@@ -18,16 +18,16 @@ function Footer() {
             15 rue Guillaume Grootaers (Nantes)
           </li>
           <li>
-            <a href="telto:0664243973">06 - 64 - 24 - 39 - 73</a>
+            <a id="telto" href="telto:0664243973">06 - 64 - 24 - 39 - 73</a>
           </li>
           <li>
-            <a href="mailto:latelierlume@gmail.com">latelierlume@gmail.com</a>
+            <a id="mailto" href="mailto:latelierlume@gmail.com">latelierlume@gmail.com</a>
           </li>
         </ul>
 
         <ul className="footer_contact_icons_list">
           <li>
-            <Link href="https://www.instagram.com/latelierlume?igshid=YTQwZjQ0Nml0OA==">
+            <Link id="insta-link" href="https://www.instagram.com/latelierlume?igshid=YTQwZjQ0Nml0OA==">
               <AiFillInstagram />
             </Link>
           </li>
@@ -35,7 +35,7 @@ function Footer() {
 
       </section>
       <section className="footer_conditions">
-        <Link href="/conditions">Condition générales de ventes de <b>l&apos;Atelier Lume</b></Link>
+        <Link id="conditions" href="/conditions">Condition générales de ventes de <b>l&apos;Atelier Lume</b></Link>
       </section>
     </footer>
   );
