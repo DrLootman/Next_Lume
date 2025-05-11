@@ -3,7 +3,6 @@ import { Noto_Serif } from 'next/font/google';
 import '../styles/style.scss';
 import Footer from '@/components/globals/Footer';
 import NavBar from '@/components/globals/NavBar';
-import Head from 'next/head';
 
 const noto = Noto_Serif({
   weight: ["200", '300', '400', '500', '600', '700', '800', '900'],
@@ -13,10 +12,14 @@ const noto = Noto_Serif({
 export const metadata: Metadata = {
   title: {
     default: `Atelier Lume - Décoration et révélation d'intérieur`,
-    template: '%s - Atelier Lume'
+    template: '%s - Atelier Lume',
   },
   metadataBase: new URL("https://atelier-lume.vercel.app"),
-  description: `Le site Atelier Lume recense les créations de Camille Bernardini, décoratrice d'intérieur diplômée ; de même qu'il permet de la contacter et de prendre rendez-vous`,
+  description: `Le site Atelier Lume recense les créations de Camille Bernardini, décoratrice d'intérieur diplômée ; de même qu'il permet de la contacter et de prendre rendez-vous.`,
+  verification: {
+    google: "eEln7XwBrMy5b_Au759vT044HNXR5sFm86XUr8NLnXk",
+  },
+  assets: ["/curtain.jpg"]
 }
 
 export default function RootLayout({
@@ -26,10 +29,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="preload" fetchPriority="high" href="/curtain.jpg" type="image/jpg" />
-        <meta name="google-site-verification" content="eEln7XwBrMy5b_Au759vT044HNXR5sFm86XUr8NLnXk" />
-      </Head>
       <body className={noto.className}>
         <NavBar />
         {children}

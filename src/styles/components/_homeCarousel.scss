@@ -1,7 +1,7 @@
 @use '../abstracts/' as a;
 
 .home-carousel {
-  width: 100%;
+  width: auto;
   margin: auto;
   min-height: 100vh;
   background-color: a.$quaternary-color;
